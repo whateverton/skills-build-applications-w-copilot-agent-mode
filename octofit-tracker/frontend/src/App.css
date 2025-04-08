@@ -1,0 +1,75 @@
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333; /* Dark text color */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px; /* Adjusted size */
+  pointer-events: none;
+  margin-right: 10px; /* Spacing */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #4caf50; /* Green background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; /* White text */
+}
+
+.App-link {
+  color: #ff5722; /* Orange links */
+}
+
+.navbar {
+  background-color: #007bff; /* Blue navigation menu */
+}
+
+.navbar-brand {
+  color: white; /* White text for brand */
+}
+
+.nav-link {
+  color: white; /* White text for links */
+}
+
+.table {
+  background-color: #ffffff; /* White table background */
+  color: #333; /* Dark text color */
+}
+
+.btn {
+  background-color: #ff5722; /* Orange buttons */
+  color: white; /* White text */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4caf50; /* Green headings */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.favicon {
+  width: 32px;
+  height: 32px;
+}
