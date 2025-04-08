@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
-    "djongo",
     "corsheaders",
     "octofit_tracker",
 ]
@@ -83,7 +82,7 @@ WSGI_APPLICATION = "octofit_tracker.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "djongo",
+        "ENGINE": "django.db.backends.dummy",  # Placeholder since pymongo is used directly
         "NAME": "octofit_db",
         "HOST": "localhost",
         "PORT": 27017,
